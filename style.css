@@ -26,8 +26,8 @@ header,footer {
     background-blend-mode: color-burn;
 
     padding: 10px;
-    background-color: brown;
-    color: #f1f1f1;
+    background-color: rgb(16, 66, 78);
+    color: #86fbff;
 }
 
 main {
@@ -59,10 +59,10 @@ nav {
     align-items: center;
     flex-direction: column;
 
-    border-left: solid 1px #f1f1f1;
-    background-color: #a52a2a90;
+    border-left: solid 1px #86fbff;
+    background-color: rgb(16, 66, 78);
     backdrop-filter: blur(3px);
-    color: #f1f1f1;
+    color: #86fbff;
 
     transform: translate(180px, 0);
     transition: transform .3s linear;
@@ -82,7 +82,7 @@ nav ul {
 }
 
 nav li a{
-    border-bottom: solid 1px #a52a2a25;
+    border-bottom: solid 1px rgb(16, 66, 78);
 }
 
 nav li:first-child a {
@@ -104,20 +104,20 @@ nav a {
     display: block;
     width: 120px;
     padding: 10px;
-    background-color: #f1f1f1;
-    color: brown;
+    background-color: #86fbff;
+    color: rgb(16, 66, 78);
     transition: all .1s linear;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: brown;
-    color: #f1f1f1;
+    background-color: rgb(16, 66, 78);
+    color: #86fbff;
     transform: scale(1.1);
     border-radius: 5px !important;
-    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(0, 149, 255, 0.2) inset;
+    -moz-box-shadow: 4px 4px 8px 0px rgba(0, 149, 255, 0.2) inset;
+    box-shadow: 4px 4px 8px 0px rgba(0, 149, 255, 0.2) inset;
 }
 
 nav a:active {
@@ -143,12 +143,12 @@ nav a:active {
 }
 
 .title {
-    color: #f1f1f1;
+    color: #86fbff;
     padding: 5px 0;
     padding-right: 40px;
     padding-left: 20px;
     border-radius: 3px;
-    background-color: brown;
+    background-color: rgb(16, 66, 78);
     overflow: hidden;
     width: max-content;
     margin: 0 0 0 -20px;
@@ -162,18 +162,18 @@ nav a:active {
 }
 
 marquee img {
-    border: solid 2px black;
+    border: solid 2px rgb(0, 43, 59);
     border-radius: 10px;
     transform: skewX(5deg);
     height: 120px;
-    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
-    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(0, 115, 197, 0.2) inset;
+    -moz-box-shadow: 0px 5px 10px 2px rgba(0, 115, 197, 0.2) inset;
+    box-shadow: 0px 5px 10px 2px rgba(0, 115, 197, 0.2) inset;
 }
 
 marquee img:hover {
     filter: brightness(1.2);
-    border-color: brown;
+    border-color: rgb(16, 66, 78);
 }
 
 /* последние игры */
@@ -195,8 +195,8 @@ marquee img:hover {
 .game_item {
     position: relative;
 
-    background-color: brown;
-    border: solid 3px brown;
+    background-color: rgb(16, 66, 78);
+    border: solid 3px rgb(16, 66, 78);
     border-radius: 10px;
 
     width: 240px;
@@ -227,7 +227,7 @@ marquee img:hover {
     top: 0;
     left: 0;
 
-    color: #f1f1f1;
+    color: #86fbff;
     padding: 10px;
 
     display: flex;
@@ -254,9 +254,9 @@ marquee img:hover {
     transform: skewX(5deg);
     transition: all .1s linear;
     padding: 5px 20px;
-    border: solid 1px #f1f1f1;
-    background-color: brown;
-    color: #f1f1f1;
+    border: solid 1px #86fbff;
+    background-color: rgb(16, 66, 78);
+    color: #86fbff;
     border-radius: 5px;
     width: max-content;
     align-self: center;
@@ -264,9 +264,9 @@ marquee img:hover {
 }
 
 .game_content button:hover {
-    border: solid 1px #f1f1f1;
-    background-color: #f1f1f1;
-    color: brown;
+    border: solid 1px #86fbff;
+    background-color: #86fbff;
+    color: rgb(16, 66, 78);
 }
 
 .game_content button:active {
